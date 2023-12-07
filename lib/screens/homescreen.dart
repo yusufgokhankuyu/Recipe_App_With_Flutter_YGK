@@ -30,7 +30,7 @@ class _HomeSreenState extends State<HomeSreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   const Text(
-                    'Recipe App',
+                    'Recipes App',
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.w600,
