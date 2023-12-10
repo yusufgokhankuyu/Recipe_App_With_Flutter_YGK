@@ -1,15 +1,26 @@
 # recipe_app
 
-A new Flutter project.
+Recipe App UI and functions  with Flutter.
 
-## Getting Started
+## project Decription
 
-This project is a starting point for a Flutter application.
+This project is a Recipe Application with Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+Recipe App UI images:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Onboarding Page UI and Home Screen Page UI:
+
+![Onboarding Page](https://github.com/yusufgokhankuyu/flutter_recipe_app/blob/master/assets/screenshots/onboarding.jpeg) ![Home Screen Page](https://github.com/yusufgokhankuyu/flutter_recipe_app/blob/master/assets/screenshots//home_screen.jpeg)
+
+
+Recipe Detail Page UI and Favorite Recipes Screen Page UI:
+
+![Recipe Detail Page](https://github.com/yusufgokhankuyu/flutter_recipe_app/blob/master/assets/screenshots/recipe_detail.jpeg) ![Favorite Recipes Page](https://github.com/yusufgokhankuyu/flutter_recipe_app/blob/master/assets/screenshots/favorites.jpeg)
+
+
+Setting Screen Page UI:
+
+![Setting Page](https://github.com/yusufgokhankuyu/flutter_recipe_app/blob/master/assets/screenshots/settings_page.jpeg)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
