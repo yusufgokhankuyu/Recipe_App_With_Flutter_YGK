@@ -44,7 +44,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               height: 213,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/images/img-onboarding.png'),
+                  image: AssetImage('assets/images/recipe_onboarding.jpg'),
                 ),
               ),
             ),
