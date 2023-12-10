@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'dart:developer';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -5,7 +7,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:provider/provider.dart';
 import 'package:recipe_app/screens/homescreen.dart';
+import 'package:recipe_app/services/variable_service.dart';
 
 class AuthService {
   final userCollection = FirebaseFirestore.instance.collection("users");
@@ -19,6 +23,8 @@ class AuthService {
     try {
       final UserCredential userCredential = await firebaseAuth
           .createUserWithEmailAndPassword(email: email, password: password);
+      Provider.of<VariableService>(context, listen: false).userName = name;
+      Provider.of<VariableService>(context, listen: false).userEmail = email;
 
       if (userCredential.user != null) {
         _registerUser(name: name, email: email, password: password);
@@ -37,7 +43,20 @@ class AuthService {
       final UserCredential userCredential = await firebaseAuth
           .signInWithEmailAndPassword(email: email, password: password);
 
+      Provider.of<VariableService>(context, listen: false).userEmail = email;
+      Provider.of<VariableService>(context, listen: false).userName =
+          userCredential.user!.displayName.toString();
+
       if (userCredential.user != null) {
+        //  DocumentSnapshot userSnapshot = await FirebaseFirestore.instance
+        //   .collection("users")
+        //   .doc(userCredential.user!.uid)
+        //   .get();
+
+        //    String userName = userSnapshot.get("name");
+
+        //    Provider.of<VariableService>(context, listen: false).userName = userName;
+
         navigator.push(MaterialPageRoute(builder: (context) => HomeSreen()));
         Fluttertoast.showToast(
             msg: "LOGIN SUCCESSFULLY", toastLength: Toast.LENGTH_LONG);

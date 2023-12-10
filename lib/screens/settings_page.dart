@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:recipe_app/components/big_user_card.dart';
 import 'package:recipe_app/components/icon_styles.dart';
 import 'package:recipe_app/components/my_bottom_navigation_bar.dart';
@@ -7,6 +8,7 @@ import 'package:recipe_app/components/settings_group.dart';
 import 'package:recipe_app/components/settings_item.dart';
 import 'package:recipe_app/screens/about_page.dart';
 import 'package:recipe_app/screens/onboarding_screen.dart';
+import 'package:recipe_app/services/variable_service.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({Key? key}) : super(key: key);
@@ -42,10 +44,10 @@ class SettingsPage extends StatelessWidget {
             children: [
               // user card
               BigUserCard(
-                userName: "Yusuf Gökhan Kuyu",
+                userName: "${Provider.of<VariableService>(context).userName}",
                 userProfilePic: const AssetImage("assets/profilephoto.jpg"),
-                userMoreInfo: const Text(
-                  "yusuf@gmail.com",
+                userMoreInfo: Text(
+                  "${Provider.of<VariableService>(context).userEmail}",
                   style: TextStyle(color: Colors.white),
                 ),
               ),
