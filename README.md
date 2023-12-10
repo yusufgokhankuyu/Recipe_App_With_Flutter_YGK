@@ -10,7 +10,7 @@ Recipe App UI images:
 
 Onboarding Page UI and Sign Up Page UI:
 
-![Onboarding Page](https://github.com/yusufgokhankuyu/Recipe_App_With_Flutter_YGK/blob/master/assets/screenshots/onboarding.jpeg) ![Sign Up Screen Page](https://github.com/yusufgokhankuyu/Recipe_App_With_Flutter_YGK/blob/master/assets/screenshots//signup.png)
+![Onboarding Page](https://github.com/yusufgokhankuyu/Recipe_App_With_Flutter_YGK/blob/master/assets/screenshots/onboarding.png) ![Sign Up Screen Page](https://github.com/yusufgokhankuyu/Recipe_App_With_Flutter_YGK/blob/master/assets/screenshots//signup.png)
 
 
 Sign In Page UI and Home Screen Page UI:
