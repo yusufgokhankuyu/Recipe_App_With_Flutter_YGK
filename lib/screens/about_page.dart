@@ -27,18 +27,21 @@ class AboutPage extends StatelessWidget {
               color: Colors.red, fontSize: 24, fontWeight: FontWeight.bold),
         ),
       ),
-      // body: Center(
-      //   child: Row(
-      //     mainAxisAlignment: MainAxisAlignment.center,
-      //     children: [
-      //       IconButton(
-      //         onPressed: () {},
-      //         icon: const Icon(Icons.post_add_outlined),
-      //       ),
-      //       const Text("Add New Recipe "),
-      //     ],
-      //   ),
-      // ),
+      body: Center(
+          child: Column(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(Icons.description, color: Colors.red, size: 32),
+              Text(
+                "Recipe App with Flutter",
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              )
+            ],
+          )
+        ],
+      )),
       bottomNavigationBar: const MyBottomNavigationBar(),
     );
   }
