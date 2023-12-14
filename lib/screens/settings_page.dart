@@ -53,16 +53,16 @@ class SettingsPage extends StatelessWidget {
               ),
               SettingsGroup(
                 items: [
-                  SettingsItem(
-                    onTap: () {},
-                    icons: CupertinoIcons.pencil_outline,
-                    iconStyle: IconStyle(),
-                    title: 'Appearance',
-                    // subtitle:
-                    //     "Make Recipe App yours Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance",
-                    titleMaxLine: 1,
-                    subtitleMaxLine: 1,
-                  ),
+                  // SettingsItem(
+                  //   onTap: () {},
+                  //   icons: CupertinoIcons.pencil_outline,
+                  //   iconStyle: IconStyle(),
+                  //   title: 'Appearance',
+                  //   // subtitle:
+                  //   //     "Make Recipe App yours Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance Appearance",
+                  //   titleMaxLine: 1,
+                  //   subtitleMaxLine: 1,
+                  // ),
                   SettingsItem(
                     onTap: () {},
                     icons: Icons.fingerprint,

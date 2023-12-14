@@ -25,7 +25,7 @@ Recipe Detail Page UI and Favorite Recipes Screen Page UI:
 
 Setting Screen Page UI:
 
-![Setting Page](https://github.com/yusufgokhankuyu/Recipe_App_With_Flutter_YGK/blob/master/assets/screenshots/settings_page.jpeg)
+![Setting Page](https://github.com/yusufgokhankuyu/Recipe_App_With_Flutter_YGK/blob/master/assets/screenshots/settings_page.png)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
