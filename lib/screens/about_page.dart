@@ -24,7 +24,7 @@ class AboutPage extends StatelessWidget {
         title: const Text(
           "About Us",
           style: TextStyle(
-              color: Colors.red, fontSize: 24, fontWeight: FontWeight.bold),
+              color: Colors.blue, fontSize: 24, fontWeight: FontWeight.bold),
         ),
       ),
       body: const SingleChildScrollView(
