@@ -30,7 +30,7 @@ class SettingsPage extends StatelessWidget {
             ),
           ),
           title: const Text(
-            "Settings",
+            "Settings Page",
             style: TextStyle(
                 color: Colors.red, fontSize: 24, fontWeight: FontWeight.bold),
           ),
@@ -104,7 +104,7 @@ class SettingsPage extends StatelessWidget {
                     iconStyle: IconStyle(
                       backgroundColor: Colors.purple,
                     ),
-                    title: 'About',
+                    title: 'About Us',
                     subtitle: "Learn more about Recipe'App",
                   ),
                 ],
