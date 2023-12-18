@@ -138,6 +138,7 @@ class _RecipeDetailPageState extends State<RecipeDetailPage> {
                           children: [
                             SvgPicture.asset(
                               'assets/svg/icon-share.svg',
+                              // ignore: deprecated_member_use
                               color: widget.recipe.startColor,
                               height: 20,
                             ),
@@ -152,6 +153,7 @@ class _RecipeDetailPageState extends State<RecipeDetailPage> {
                               },
                               child: SvgPicture.asset(
                                 'assets/svg/icon-bookmark.svg',
+                                // ignore: deprecated_member_use
                                 color: kaydet
                                     ? Colors.red
                                     : widget.recipe.startColor,
