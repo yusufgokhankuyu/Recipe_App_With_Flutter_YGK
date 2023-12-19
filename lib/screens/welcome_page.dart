@@ -28,7 +28,7 @@ class _WelcomePageState extends State<WelcomePage> {
                           Navigator.of(context).push(MaterialPageRoute(
                               builder: (context) => HomeSreen()));
                         },
-                        child: Text("Home Screen"))
+                        child: Text("Home Page"))
                   ],
                 )
               : Column(
