@@ -52,7 +52,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               height: MediaQuery.of(context).size.height * 0.05,
             ),
             const Text(
-              'Welcome to Flutter Recipe App',
+              'This Recipies for you',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 20,
